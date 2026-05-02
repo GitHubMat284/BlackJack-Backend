@@ -1,3 +1,10 @@
 <Solution>
-  <Project Path="BlackJack-Backend.csproj" />
+  <Folder Name="/Core/">
+    <Project Path="D:/Programming Repos/Blackjack.Application/Blackjack.Application.csproj" Id="53c43eda-304d-46a4-b4b2-768efb479db3" />
+    <Project Path="D:/Programming Repos/BlackJack.Domain/BlackJack.Domain.csproj" Id="7c4236ce-1642-4299-addf-05dcfa39eebb" />
+  </Folder>
+  <Folder Name="/Infrastructure/" />
+  <Folder Name="/Presentation/">
+    <Project Path="D:/Programming Repos/BlackJack-Backend/Blackjack.Functions.csproj" />
+  </Folder>
 </Solution>
