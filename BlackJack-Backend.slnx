@@ -5,6 +5,6 @@
   </Folder>
   <Folder Name="/Infrastructure/" />
   <Folder Name="/Presentation/">
-    <Project Path="Blackjack.Functions.csproj" />
+    <Project Path="Presentation/Blackjack.Functions/Blackjack.Functions.csproj" />
   </Folder>
 </Solution>

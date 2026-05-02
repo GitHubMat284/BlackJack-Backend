@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack.Domain", "Core\Bl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Application", "Core\Blackjack.Application\Blackjack.Application.csproj", "{B3C4D5E6-3333-4D4E-AF9E-1098765432CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Functions", "Blackjack.Functions.csproj", "{A2B3C4D5-2222-4C3D-9E8F-0987654321BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Functions", "Presentation\Blackjack.Functions\Blackjack.Functions.csproj", "{A2B3C4D5-2222-4C3D-9E8F-0987654321BA}"
 EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
