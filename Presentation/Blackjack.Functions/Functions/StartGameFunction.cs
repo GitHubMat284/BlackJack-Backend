@@ -24,8 +24,12 @@ public class StartGameFunction
 
         _logger.LogInformation("StartGame request received: {@Request}", request);
 
-        var result = _startGameInteractor.Run();
+        if (request == null)
+        {
+            return req.CreateResponse(HttpStatusCode.BadRequest);
+        }
 
+        var result = _startGameInteractor.Run(request);
         _logger.LogInformation("StartGame response: {@Response}", result);
 
         var response = req.CreateResponse(HttpStatusCode.OK);

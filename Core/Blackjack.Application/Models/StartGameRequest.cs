@@ -1,5 +1,5 @@
 ﻿namespace Blackjack.Application.Models;
 public class StartGameRequest
 {
-    public required string GameID { get; set; }
+    public string? PlayerName { get; set; }
 }

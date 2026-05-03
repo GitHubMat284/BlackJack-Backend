@@ -9,9 +9,9 @@ public class StartGame
 
     public StartGame(IGameDataGateway dataGateway) => _dataGateway = dataGateway;
 
-    public GameStateResponse Run()
+    public GameStateResponse Run(StartGameRequest startGameRequest)
     {
-        var game = new BlackJackGame();
+        var game = new BlackJackGame(startGameRequest.PlayerName);
 
         _dataGateway.Save(game);
 
