@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
-    <None Include="..\..\BlackJack-Backend.sln" />
     <ProjectReference Include="..\..\Core\BlackJack.Domain\BlackJack.Domain.csproj" />
     <ProjectReference Include="..\..\Core\Blackjack.Application\Blackjack.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\MemoryGameDataGateway\MemoryGameData.csproj" />
