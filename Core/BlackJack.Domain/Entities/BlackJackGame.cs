@@ -24,12 +24,13 @@ public class BlackJackGame
     public string ID { get; } = Guid.NewGuid().ToString();
 
     private readonly Deck _deck = new();
-    public Player Player { get; } = new();
+    public Player Player { get; }
     public Dealer Dealer { get; } = new();
     public GameStatus Status { get; private set; }
 
-    public BlackJackGame()
+    public BlackJackGame(string? playerName)
     {
+        Player = new Player(playerName);
         Start();
     }
 
