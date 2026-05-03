@@ -1,13 +1,13 @@
-﻿using Blackjack.Application.DTO;
+﻿using Blackjack.Application.Models;
 using Blackjack.Application.Interfaces;
 
 namespace Blackjack.Application.UseCases
 {
     public class PlayerHit
     {
-        private readonly IDataGateway _dataGateway;
+        private readonly IGameDataGateway _dataGateway;
 
-        public PlayerHit(IDataGateway dataGateway) => _dataGateway = dataGateway;
+        public PlayerHit(IGameDataGateway dataGateway) => _dataGateway = dataGateway;
 
         public GameStateResponse Run(GameRequest request)
         {

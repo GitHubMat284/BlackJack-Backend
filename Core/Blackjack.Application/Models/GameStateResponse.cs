@@ -1,6 +1,6 @@
 ﻿using BlackJack.Domain.Entities;
 
-namespace Blackjack.Application.UseCases;
+namespace Blackjack.Application.Models;
 public class GameStateResponse
 {
     public required string GameID { get; set; }
@@ -12,8 +12,8 @@ public class GameStateResponse
     public static GameStateResponse MapGameToDTO(BlackJackGame game) => new()
     {
         GameID = game.ID,
-        PlayerCards = game.Player.Hand.Cards.Select(c => c.ToString()),
-        DealerCards = game.Dealer.Hand.Cards.Select(c => c.ToString()),
+        PlayerCards = game.Player.Hand.Cards.Select(c => c.ToString() ?? string.Empty),
+        DealerCards = game.Dealer.Hand.Cards.Select(c => c.ToString() ?? string.Empty),
         Status = game.Status.ToString()
     };
 }

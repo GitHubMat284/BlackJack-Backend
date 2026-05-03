@@ -5,7 +5,7 @@ namespace Blackjack.Application.Interfaces;
 /// <summary>
 /// Defines methods for retrieving and saving game data in a persistent storage system.
 /// </summary>
-public interface IDataGateway
+public interface IGameDataGateway
 {
     /// <summary>
     /// Retrieves the BlackJackGame instance with the specified identifier.
