@@ -12,6 +12,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="local.settings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
     <ProjectReference Include="..\..\Core\BlackJack.Domain\BlackJack.Domain.csproj" />
     <ProjectReference Include="..\..\Core\Blackjack.Application\Blackjack.Application.csproj" />

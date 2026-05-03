@@ -15,7 +15,7 @@ builder.Services
     .ConfigureFunctionsApplicationInsights();
 
 // Dependency Injection
-builder.Services.AddSingleton<IGameDataGateway, MemoryGameDataGateway>();
+builder.Services.AddSingleton<IGameDataGateway, MemoryGameDataGateway>(); 
 builder.Services.AddSingleton<StartGame>();
 builder.Services.AddSingleton<PlayerHit>();
 builder.Services.AddSingleton<PlayerStand>();
