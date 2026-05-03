@@ -2,7 +2,7 @@
 using BlackJack.Domain.Entities;
 using System.Collections.Concurrent;
 
-namespace MemoryGameData;
+namespace Infrastructure.MemoryGameData;
 
 /// <summary>
 /// Provides an in-memory implementation of the IGameDataGateway interface for storing and retrieving BlackJackGame

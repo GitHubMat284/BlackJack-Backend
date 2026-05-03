@@ -1,6 +1,6 @@
 using Blackjack.Application.Interfaces;
 using Blackjack.Application.UseCases;
-using MemoryGameData;
+using Infrastructure.MemoryGameData;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Extensions.DependencyInjection;

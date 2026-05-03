@@ -4,7 +4,7 @@ using Blackjack.Application.Interfaces;
 using BlackJack.Domain.Entities;
 using System.Text.Json;
 
-namespace TableGameDataGateway;
+namespace Infrastructure.TableGameDataGateway;
 
 /// <summary>
 /// Represents a table entity for storing game-related data in Azure Table Storage.
