@@ -3,8 +3,7 @@
 This project is a simple single-player Blackjack API designed to demonstrate clean architecture principles rather than full casino-level gameplay. The game follows standard Blackjack fundamentals: a player competes against a dealer using a standard 52-card deck, aiming to reach a hand value as close to 21 as possible without exceeding it. Number cards are worth their face value, face cards are worth 10, and aces are treated as 11 or 1 depending on what keeps the hand under 21. The player can choose to Hit (draw a card) or Stand (end their turn), after which the dealer plays automatically by drawing until reaching at least 17. The outcome is determined by comparing final hand values, with results including win, loss, bust, or push. Advanced rules such as betting, splitting, doubling down, or multiplayer are intentionally excluded to keep the focus on core game logic and architecture.
 
 # Reference tutorial:
-https://www.youtube.com/watch?v=xjqTIzYkGdI
-
+[![Blackjack Tutorial](https://img.youtube.com/vi/xjqTIzYkGdI/0.jpg)](https://www.youtube.com/watch?v=xjqTIzYkGdI)
 ---
 
 ## Architecture Overview
