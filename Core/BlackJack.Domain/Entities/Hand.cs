@@ -31,7 +31,7 @@ public class Hand
     public int GetHandValue() {
         int total = (_cards.Sum(card => card.GetValue()));
 
-        int aceCount = (_cards.Sum(card => card.GetValue()));
+        int aceCount = (_cards.Count(card => card.Rank == Rank.Ace));
 
         while (total > 21 && aceCount > 0)
         {
