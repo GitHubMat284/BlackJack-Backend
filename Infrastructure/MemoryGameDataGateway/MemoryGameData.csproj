@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Blackjack.Application\Blackjack.Application.csproj" />
-    <ProjectReference Include="..\Core\BlackJack.Domain\BlackJack.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Blackjack.Application\Blackjack.Application.csproj" />
+    <ProjectReference Include="..\..\Core\BlackJack.Domain\BlackJack.Domain.csproj" />
   </ItemGroup>
 
 </Project>

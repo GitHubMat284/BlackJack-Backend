@@ -4,8 +4,8 @@
     <Project Path="Core/BlackJack.Domain/BlackJack.Domain.csproj" Id="7c4236ce-1642-4299-addf-05dcfa39eebb" />
   </Folder>
   <Folder Name="/Infrastructure/">
-    <Project Path="MemoryGameDataGateway/MemoryGameData.csproj" Id="033ae0d6-0a6e-46b5-9657-a36fec46b668" />
-    <Project Path="TableGameDataGateway/TableGameData.csproj" Id="6e3bf079-6f96-477d-afa4-559e95e8f6ec" />
+    <Project Path="Infrastructure/MemoryGameDataGateway/MemoryGameData.csproj" Id="033ae0d6-0a6e-46b5-9657-a36fec46b668" />
+    <Project Path="Infrastructure/TableGameDataGateway/TableGameData.csproj" Id="6e3bf079-6f96-477d-afa4-559e95e8f6ec" />
   </Folder>
   <Folder Name="/Presentation/">
     <Project Path="Presentation/Blackjack.Functions/Blackjack.Functions.csproj" />

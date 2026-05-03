@@ -16,7 +16,7 @@
     <None Include="..\..\BlackJack-Backend.sln" />
     <ProjectReference Include="..\..\Core\BlackJack.Domain\BlackJack.Domain.csproj" />
     <ProjectReference Include="..\..\Core\Blackjack.Application\Blackjack.Application.csproj" />
-    <ProjectReference Include="..\..\MemoryGameDataGateway\MemoryGameData.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\MemoryGameDataGateway\MemoryGameData.csproj" />
     <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.23.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="2.51.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.ApplicationInsights" Version="2.50.0" />
