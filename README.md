@@ -10,6 +10,10 @@ This project is a simple single-player Blackjack API designed to demonstrate cle
 
 This project follows Clean Architecture (Ports and Adapters) to clearly separate concerns and ensure maintainability.
 
+The main skeleton of the project follows a similar pattern to this graph: 
+<img width="1050" height="660" alt="image" src="https://github.com/user-attachments/assets/d00dca50-f9f7-4992-8dff-f66193f561bf" />
+
+
 ### Layers
 
 **Domain**
