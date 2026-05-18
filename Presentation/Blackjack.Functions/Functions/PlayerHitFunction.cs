@@ -18,7 +18,7 @@ public class PlayerHitFunction
     }
 
     [Function("PlayerHit")]
-    public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequestData req)
+    public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Anonymous, "post")] HttpRequestData req)
     {
         var request = await req.ReadFromJsonAsync<GameRequest>();
         _logger.LogInformation("PlayerHit request received: {@Request}", request);

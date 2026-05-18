@@ -16,7 +16,7 @@ public class StartGame
 
     public GameStateResponse Run(StartGameRequest startGameRequest)
     {
-        var game = new BlackJackGame(startGameRequest.PlayerName);
+        var game = new BlackJackGame(startGameRequest.PlayerName ?? "Player");
 
         _dataGateway.Save(game);
 

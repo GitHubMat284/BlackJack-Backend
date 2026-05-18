@@ -18,13 +18,13 @@ public class StartGameFunction
     }
 
     [Function("StartGame")]
-    public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequestData req)
+    public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Anonymous, "post")] HttpRequestData req)
     {
         var request = await req.ReadFromJsonAsync<StartGameRequest>();
 
         _logger.LogInformation("StartGame request received: {@Request}", request);
 
-        if (request == null)
+        if (request == null || string.IsNullOrEmpty(request.GameID))
         {
             return req.CreateResponse(HttpStatusCode.BadRequest);
         }
