@@ -9,5 +9,5 @@
 /// </remarks>
 public class StartGameRequest
 {
-    public string? PlayerName { get; set; }
+    public string? PlayerName { get; set; } = "Player";
 }
