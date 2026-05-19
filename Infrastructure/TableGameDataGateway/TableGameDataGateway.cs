@@ -31,6 +31,11 @@ public class TableGameDataGateway : IGameDataGateway
         _table = table;
     }
 
+    public void Delete(string gameID)
+    {
+        throw new NotImplementedException();
+    }
+
     public BlackJackGame GetByID(string id)
     {
         var entity = _table.GetEntity<TableGameEntity>("game", id);

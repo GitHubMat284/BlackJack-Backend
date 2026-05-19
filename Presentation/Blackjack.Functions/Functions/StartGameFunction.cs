@@ -24,7 +24,7 @@ public class StartGameFunction
 
         _logger.LogInformation("StartGame request received: {@Request}", request);
 
-        if (request == null)
+        if (request == null || string.IsNullOrEmpty(request.PlayerName) || request.PlayerName.Length > 16)
         {
             return req.CreateResponse(HttpStatusCode.BadRequest);
         }

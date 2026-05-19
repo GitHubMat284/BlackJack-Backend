@@ -20,7 +20,7 @@ public class PlayerStand
 
         game.PlayerStand();
 
-        _dataGateway.Save(game);
+        _dataGateway.Delete(game.ID);
 
         return GameStateResponse.MapGameToDTO(game);
     }

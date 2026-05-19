@@ -20,4 +20,9 @@ public interface IGameDataGateway
     /// <param name="game">The BlackJackGame instance representing the current game state to save. Cannot be null.</param>
     void Save(BlackJackGame game);
 
+    /// <summary>
+    /// Deletes a completed BlackJack game from persistance storage
+    /// </summary>
+    /// <param name="gameID">Unique Game ID Hash to be deleted</param>
+    void Delete(String gameID);
 }
